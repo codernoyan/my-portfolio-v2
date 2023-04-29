@@ -52,21 +52,21 @@ export default function Hero() {
         </div>
         {/* social links */}
         <div className="flex justify-center gap-4 items-center">
-          <div className="border-2 border-indigo-500 p-1 rounded-sm cursor-pointer hover:bg-indigo-500 hover:text-white transition-colors">
+          <div className="border-2 border-indigo-500 p-1 rounded-sm cursor-pointer hover:bg-indigo-500 hover:text-white transition-colors duration-500">
             <FaFacebookF className="text-2xl p-[0.15rem]" />
           </div>
-          <div className="border-2 border-indigo-500 p-1 rounded-sm cursor-pointer hover:bg-indigo-500 hover:text-white">
+          <div className="border-2 border-indigo-500 p-1 rounded-sm cursor-pointer hover:bg-indigo-500 hover:text-white transition-colors duration-500">
             <FaGithub className="text-2xl p-[0.15rem]" />
           </div>
-          <div className="border-2 border-indigo-500 p-1 rounded-sm cursor-pointer hover:bg-indigo-500 hover:text-white">
+          <div className="border-2 border-indigo-500 p-1 rounded-sm cursor-pointer hover:bg-indigo-500 hover:text-white transition-colors duration-500">
             <FaLinkedin className="text-2xl p-[0.15rem]" />
           </div>
-          <div className="border-2 border-indigo-500 p-1 rounded-sm cursor-pointer hover:bg-indigo-500 hover:text-white">
+          <div className="border-2 border-indigo-500 p-1 rounded-sm cursor-pointer hover:bg-indigo-500 hover:text-white transition-colors duration-500">
             <FaInstagram className="text-2xl p-[0.15rem]" />
           </div>
         </div>
       </div>
-      <div className="flex justify-center gap-4 items-center animate-bounce mt-10">
+      <div className="flex justify-center gap-4 items-center animate-bounce mt-10 md:mt-20">
         <AiOutlineArrowDown className="text-2xl" />
       </div>
     </section>
