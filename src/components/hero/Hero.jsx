@@ -1,7 +1,7 @@
 import authorImage from 'assets/images/Noayn_Dey.jpg';
 import { useEffect, useState } from 'react';
 import { BlurhashCanvas } from "react-blurhash";
-import { FaFacebookF, FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
+import { FaFacebookF, FaGithub, FaLinkedinIn, FaInstagram } from "react-icons/fa";
 import { AiOutlineArrowDown } from "react-icons/ai";
 
 export default function Hero() {
@@ -52,18 +52,34 @@ export default function Hero() {
         </div>
         {/* social links */}
         <div className="flex justify-center gap-4 items-center">
-          <div className="border-2 border-indigo-500 p-1 rounded-sm cursor-pointer hover:bg-indigo-500 hover:text-white transition-colors duration-500">
-            <FaFacebookF className="text-2xl p-[0.15rem]" />
-          </div>
-          <div className="border-2 border-indigo-500 p-1 rounded-sm cursor-pointer hover:bg-indigo-500 hover:text-white transition-colors duration-500">
-            <FaGithub className="text-2xl p-[0.15rem]" />
-          </div>
-          <div className="border-2 border-indigo-500 p-1 rounded-sm cursor-pointer hover:bg-indigo-500 hover:text-white transition-colors duration-500">
-            <FaLinkedin className="text-2xl p-[0.15rem]" />
-          </div>
-          <div className="border-2 border-indigo-500 p-1 rounded-sm cursor-pointer hover:bg-indigo-500 hover:text-white transition-colors duration-500">
-            <FaInstagram className="text-2xl p-[0.15rem]" />
-          </div>
+          {/* facebook */}
+          <a className="group relative inline-block text-sm font-medium text-indigo-600 focus:outline-none focus:ring active:text-indigo-500" href="/download">
+            <span className="absolute inset-0 translate-x-0.5 translate-y-0.5 bg-indigo-600 transition-transform group-hover:translate-y-0 group-hover:translate-x-0" />
+            <span className="relative block border border-current bg-white p-2">
+              <FaFacebookF className="text-2xl p-[0.15rem]" />
+            </span>
+          </a>
+          {/* linkedin */}
+          <a className="group relative inline-block text-sm font-medium text-indigo-600 focus:outline-none focus:ring active:text-indigo-500" href="/download">
+            <span className="absolute inset-0 translate-x-0.5 translate-y-0.5 bg-indigo-600 transition-transform group-hover:translate-y-0 group-hover:translate-x-0" />
+            <span className="relative block border border-current bg-white p-2">
+              <FaLinkedinIn className="text-2xl p-[0.15rem]" />
+            </span>
+          </a>
+          {/* github */}
+          <a className="group relative inline-block text-sm font-medium text-indigo-600 focus:outline-none focus:ring active:text-indigo-500" href="/download">
+            <span className="absolute inset-0 translate-x-0.5 translate-y-0.5 bg-indigo-600 transition-transform group-hover:translate-y-0 group-hover:translate-x-0" />
+            <span className="relative block border border-current bg-white p-2">
+              <FaGithub className="text-2xl p-[0.15rem]" />
+            </span>
+          </a>
+          {/* instagram */}
+          <a className="group relative inline-block text-sm font-medium text-indigo-600 focus:outline-none focus:ring active:text-indigo-500" href="/download">
+            <span className="absolute inset-0 translate-x-0.5 translate-y-0.5 bg-indigo-600 transition-transform group-hover:translate-y-0 group-hover:translate-x-0" />
+            <span className="relative block border border-current bg-white p-2">
+              <FaInstagram className="text-2xl p-[0.15rem]" />
+            </span>
+          </a>
         </div>
       </div>
       <div className="flex justify-center gap-4 items-center animate-bounce mt-10 md:mt-20">
