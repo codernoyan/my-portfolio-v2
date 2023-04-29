@@ -4,10 +4,10 @@ import Navbar from "components/navbar/Navbar";
 
 export default function Home() {
   return (
-    <main>
+    <main className="font-radio">
       <Navbar />
       <Hero />
-      <section className="container mx-auto px-2 md:px-0 font-radio">
+      <section className="container mx-auto px-2 md:px-0">
         <About />
       </section>
     </main>
