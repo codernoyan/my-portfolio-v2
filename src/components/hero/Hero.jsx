@@ -19,6 +19,7 @@ export default function Hero() {
           <div className="bg-cyan-200 rounded-full p-2 flex">
             {/* <img src={authorImage} alt="author" className="h-32 rounded-full" loading="lazy" /> */}
             <>
+              {/* blurhash image */}
               {
                 !imageLoaded && (
                   <BlurhashCanvas
@@ -40,7 +41,7 @@ export default function Hero() {
         </div>
         {/* designation */}
         <div>
-
+          <h1>Hello! I am Noyan</h1>
         </div>
         {/* objective */}
         <div>
