@@ -43,10 +43,10 @@ export default function Hero() {
         </div>
         {/* designation */}
         <div>
-          <h1 className="text-center text-5xl text-indigo-500 font-bold">Hello! <span className="block md:inline">I am Noyan</span></h1>
+          <h1 className="text-center text-5xl text-indigo-500 font-bold selection:bg-indigo-500 selection:text-white">Hello! <span className="block md:inline">I am Noyan</span></h1>
         </div>
         {/* objective */}
-        <div className="flex justify-center">
+        <div className="flex justify-center selection:bg-indigo-500 selection:text-white">
           <p className="text-center text-lg md:w-3/4 font-medium text-slate-600">I am a frontend web developer. I can provide clean code and pixel perfect design. I also make website more & more interactive with web animations.</p>
         </div>
         {/* social links */}

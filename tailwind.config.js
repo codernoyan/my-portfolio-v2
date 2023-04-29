@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        grotesk: ['Space Grotesk', ' sans-serif'],
+        radio: ['Radio Canada', 'sans-serif'],
       },
     },
   },
