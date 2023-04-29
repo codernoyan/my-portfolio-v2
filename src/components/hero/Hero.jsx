@@ -2,6 +2,7 @@ import authorImage from 'assets/images/Noayn_Dey.jpg';
 import { useEffect, useState } from 'react';
 import { BlurhashCanvas } from "react-blurhash";
 import { FaFacebookF, FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
+import { AiOutlineArrowDown } from "react-icons/ai";
 
 export default function Hero() {
   const [imageLoaded, setImageLoaded] = useState(false);
@@ -14,7 +15,7 @@ export default function Hero() {
   }, [])
 
   return (
-    <section className="mt-10">
+    <section className="mt-6 md:mt-10">
       <div className="space-y-5">
         {/* image */}
         <div className="flex justify-center">
@@ -51,19 +52,22 @@ export default function Hero() {
         </div>
         {/* social links */}
         <div className="flex justify-center gap-4 items-center">
-          <div className="border-2 p-1 rounded-sm cursor-pointer">
+          <div className="border-2 border-indigo-500 p-1 rounded-sm cursor-pointer hover:bg-indigo-500 hover:text-white transition-colors">
             <FaFacebookF className="text-2xl p-[0.15rem]" />
           </div>
-          <div className="border-2 p-1 rounded-sm cursor-pointer">
+          <div className="border-2 border-indigo-500 p-1 rounded-sm cursor-pointer hover:bg-indigo-500 hover:text-white">
             <FaGithub className="text-2xl p-[0.15rem]" />
           </div>
-          <div className="border-2 p-1 rounded-sm cursor-pointer">
+          <div className="border-2 border-indigo-500 p-1 rounded-sm cursor-pointer hover:bg-indigo-500 hover:text-white">
             <FaLinkedin className="text-2xl p-[0.15rem]" />
           </div>
-          <div className="border-2 p-1 rounded-sm cursor-pointer">
+          <div className="border-2 border-indigo-500 p-1 rounded-sm cursor-pointer hover:bg-indigo-500 hover:text-white">
             <FaInstagram className="text-2xl p-[0.15rem]" />
           </div>
         </div>
+      </div>
+      <div className="flex justify-center gap-4 items-center animate-bounce mt-10">
+        <AiOutlineArrowDown className="text-2xl" />
       </div>
     </section>
   )
