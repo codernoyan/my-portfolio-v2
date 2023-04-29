@@ -12,11 +12,11 @@ export default function Hero() {
     img.src = authorImage;
   }, [])
   return (
-    <section className="flex justify-center mt-4">
-      <div>
+    <section className="mt-8">
+      <div className="space-y-4">
         {/* image */}
-        <div>
-          <div className="bg-cyan-200 rounded-full p-2 flex">
+        <div className="flex justify-center">
+          <div className="bg-indigo-200 rounded-full p-2 flex">
             {/* <img src={authorImage} alt="author" className="h-32 rounded-full" loading="lazy" /> */}
             <>
               {/* blurhash image */}
@@ -41,11 +41,11 @@ export default function Hero() {
         </div>
         {/* designation */}
         <div>
-          <h1>Hello! I am Noyan</h1>
+          <h1 className="text-center text-4xl text-indigo-500 font-bold">Hello! I am Noyan</h1>
         </div>
         {/* objective */}
-        <div>
-
+        <div className="flex justify-center">
+          <p className="text-center text-lg w-3/4 font-medium">I am a frontend web developer. I can provide clean code and pixel perfect design. I also make website more & more interactive with web animations.</p>
         </div>
         {/* links */}
         <div>
