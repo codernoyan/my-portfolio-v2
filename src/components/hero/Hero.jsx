@@ -53,28 +53,28 @@ export default function Hero() {
         {/* social links */}
         <div className="flex justify-center gap-4 items-center">
           {/* facebook */}
-          <a className="group relative inline-block text-sm font-medium text-indigo-600 focus:outline-none focus:ring active:text-indigo-500" href="/download">
+          <a className="group relative inline-block text-sm font-medium text-indigo-600 focus:outline-none focus:ring active:text-indigo-500" href="https://www.facebook.com/noyandey88" target="_blank" rel="noreferrer">
             <span className="absolute inset-0 translate-x-0.5 translate-y-0.5 bg-indigo-600 transition-transform group-hover:translate-y-0 group-hover:translate-x-0" />
             <span className="relative block border border-current bg-white p-2">
               <FaFacebookF className="text-2xl p-[0.15rem]" />
             </span>
           </a>
           {/* linkedin */}
-          <a className="group relative inline-block text-sm font-medium text-indigo-600 focus:outline-none focus:ring active:text-indigo-500" href="/download">
+          <a className="group relative inline-block text-sm font-medium text-indigo-600 focus:outline-none focus:ring active:text-indigo-500" href="https://www.linkedin.com/in/noyandey88" target="_blank" rel="noreferrer">
             <span className="absolute inset-0 translate-x-0.5 translate-y-0.5 bg-indigo-600 transition-transform group-hover:translate-y-0 group-hover:translate-x-0" />
             <span className="relative block border border-current bg-white p-2">
               <FaLinkedinIn className="text-2xl p-[0.15rem]" />
             </span>
           </a>
           {/* github */}
-          <a className="group relative inline-block text-sm font-medium text-indigo-600 focus:outline-none focus:ring active:text-indigo-500" href="/download">
+          <a className="group relative inline-block text-sm font-medium text-indigo-600 focus:outline-none focus:ring active:text-indigo-500" href="https://www.github.com/codernoyan" target="_blank" rel="noreferrer">
             <span className="absolute inset-0 translate-x-0.5 translate-y-0.5 bg-indigo-600 transition-transform group-hover:translate-y-0 group-hover:translate-x-0" />
             <span className="relative block border border-current bg-white p-2">
               <FaGithub className="text-2xl p-[0.15rem]" />
             </span>
           </a>
           {/* instagram */}
-          <a className="group relative inline-block text-sm font-medium text-indigo-600 focus:outline-none focus:ring active:text-indigo-500" href="/download">
+          <a className="group relative inline-block text-sm font-medium text-indigo-600 focus:outline-none focus:ring active:text-indigo-500" href="https://www.instagram.com/noyandey1" target="_blank" rel="noreferrer">
             <span className="absolute inset-0 translate-x-0.5 translate-y-0.5 bg-indigo-600 transition-transform group-hover:translate-y-0 group-hover:translate-x-0" />
             <span className="relative block border border-current bg-white p-2">
               <FaInstagram className="text-2xl p-[0.15rem]" />
@@ -83,7 +83,7 @@ export default function Hero() {
         </div>
       </div>
       <div className="flex justify-center gap-4 items-center animate-bounce mt-10 md:mt-20">
-        <AiOutlineArrowDown className="text-2xl" />
+        <AiOutlineArrowDown className="text-2xl text-indigo-500" />
       </div>
     </section>
   )
