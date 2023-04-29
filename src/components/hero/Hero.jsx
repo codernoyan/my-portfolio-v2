@@ -1,6 +1,7 @@
 import authorImage from 'assets/images/Noayn_Dey.jpg';
 import { useEffect, useState } from 'react';
 import { BlurhashCanvas } from "react-blurhash";
+import { FaFacebookF, FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 
 export default function Hero() {
   const [imageLoaded, setImageLoaded] = useState(false);
@@ -11,9 +12,10 @@ export default function Hero() {
     };
     img.src = authorImage;
   }, [])
+
   return (
-    <section className="mt-8">
-      <div className="space-y-4">
+    <section className="mt-10">
+      <div className="space-y-5">
         {/* image */}
         <div className="flex justify-center">
           <div className="bg-indigo-200 rounded-full p-2 flex">
@@ -41,15 +43,26 @@ export default function Hero() {
         </div>
         {/* designation */}
         <div>
-          <h1 className="text-center text-4xl text-indigo-500 font-bold">Hello! I am Noyan</h1>
+          <h1 className="text-center text-5xl text-indigo-500 font-bold">Hello! <span className="block md:inline">I am Noyan</span></h1>
         </div>
         {/* objective */}
         <div className="flex justify-center">
-          <p className="text-center text-lg w-3/4 font-medium">I am a frontend web developer. I can provide clean code and pixel perfect design. I also make website more & more interactive with web animations.</p>
+          <p className="text-center text-lg md:w-3/4 font-medium text-slate-600">I am a frontend web developer. I can provide clean code and pixel perfect design. I also make website more & more interactive with web animations.</p>
         </div>
-        {/* links */}
-        <div>
-
+        {/* social links */}
+        <div className="flex justify-center gap-4 items-center">
+          <div className="border-2 p-1 rounded-sm cursor-pointer">
+            <FaFacebookF className="text-2xl p-[0.15rem]" />
+          </div>
+          <div className="border-2 p-1 rounded-sm cursor-pointer">
+            <FaGithub className="text-2xl p-[0.15rem]" />
+          </div>
+          <div className="border-2 p-1 rounded-sm cursor-pointer">
+            <FaLinkedin className="text-2xl p-[0.15rem]" />
+          </div>
+          <div className="border-2 p-1 rounded-sm cursor-pointer">
+            <FaInstagram className="text-2xl p-[0.15rem]" />
+          </div>
         </div>
       </div>
     </section>

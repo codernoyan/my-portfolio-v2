@@ -10,7 +10,7 @@ export default function Navbar() {
         role="menuitem"
         aria-haspopup="false"
         tabIndex="0"
-        className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-cyan-500 focus:outline-none focus-visible:outline-none lg:px-4"
+        className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-indigo-500 focus:outline-none focus-visible:outline-none lg:px-4"
         href="/#about"
       >
         <span>About</span>
@@ -22,7 +22,7 @@ export default function Navbar() {
         aria-current="page"
         aria-haspopup="false"
         tabIndex="0"
-        className="flex items-center gap-2 py-4 text-cyan-500 transition-colors duration-300 focus:outline-none focus-visible:outline-none lg:px-4"
+        className="flex items-center gap-2 py-4 text-indigo-500 transition-colors duration-300 focus:outline-none focus-visible:outline-none lg:px-4"
         href="/#skills"
       >
         <span>Skills</span>
@@ -33,7 +33,7 @@ export default function Navbar() {
         role="menuitem"
         aria-haspopup="false"
         tabIndex="0"
-        className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-cyan-500 focus:outline-none focus-visible:outline-none lg:px-4"
+        className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-indigo-500 focus:outline-none focus-visible:outline-none lg:px-4"
         href="/#works"
       >
         <span>Works</span>
@@ -44,7 +44,7 @@ export default function Navbar() {
         role="menuitem"
         aria-haspopup="false"
         tabIndex="0"
-        className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-cyan-500 focus:outline-none focus-visible:outline-none lg:px-4"
+        className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-indigo-500 focus:outline-none focus-visible:outline-none lg:px-4"
         href="/#contact"
       >
         <span>Contact</span>
@@ -52,7 +52,7 @@ export default function Navbar() {
     </li>
     <li role="none" className="flex items-stretch">
       <div className="me-auto flex items-center md:px-6 lg:ml-0 lg:p-0">
-        <button className="border-2 border-cyan-500 px-4 py-1 rounded-sm hover:bg-cyan-500 hover:text-white transition-colors">
+        <button className="border-2 border-indigo-500 px-4 py-1 rounded-sm hover:bg-indigo-500 hover:text-white transition-colors">
           <span>Hire Me</span>
         </button>
       </div>
@@ -76,7 +76,7 @@ export default function Navbar() {
               aria-current="page"
               className="flex items-center gap-2 whitespace-nowrap py-3 text-lg focus:outline-none lg:flex-1"
             >
-              <a href="#">noyandey</a>
+              <a href="#" className="font-bold text-indigo-500">noyandey</a>
             </div>
             {/*      <!-- Mobile trigger --> */}
             <button
