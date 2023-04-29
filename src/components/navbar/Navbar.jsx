@@ -68,10 +68,10 @@ export default function Navbar() {
   </>
 
   return (
-    <>
+    <section className="fixed w-full">
       {/*<!-- Component: Navbar with CTA --> */}
-      <header className="relative z-20 w-full bg-white/90 after:absolute after:top-full after:left-0 after:z-10 after:block after:h-px after:w-full lg:backdrop-blur-sm lg:after:hidden">
-        <div className="relative max-w-full md:px-0">
+      <header className="relative z-20 w-full bg-slate-100/20 after:absolute after:top-full after:left-0 after:z-10 after:block after:h-px after:w-full lg:backdrop-blur-sm lg:after:hidden border-b border-indigo-100">
+        <div className="relative md:px-0 container mx-auto px-2 font-radio">
           <nav
             aria-label="main navigation"
             className="flex h-16 items-stretch justify-between font-medium text-slate-700"
@@ -118,7 +118,7 @@ export default function Navbar() {
               role="menubar"
               aria-label="Select page"
               className={`absolute top-0 left-0 z-[-1] h-[28.5rem] w-full justify-center overflow-hidden  overflow-y-auto overscroll-contain bg-white/90 pr-8 pb-12 pt-16 font-semibold transition-[opacity,visibility] duration-300 lg:visible lg:relative lg:top-0 lg:z-0 lg:flex lg:h-full lg:w-auto lg:items-stretch lg:overflow-visible lg:bg-white/0 lg:px-0 lg:py-0  lg:pt-0 lg:opacity-100  ${isToggleOpen
-                ? "visible opacity-100 backdrop-blur-sm"
+                ? "visible opacity-100 backdrop-blur-md"
                 : "invisible opacity-0"
                 }`}
             >
@@ -128,6 +128,6 @@ export default function Navbar() {
         </div>
       </header>
       {/*<!-- End Navbar with CTA --> */}
-    </>
+    </section>
   )
 }
