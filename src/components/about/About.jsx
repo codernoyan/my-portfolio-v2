@@ -2,7 +2,7 @@ import noyanImage from 'assets/images/Noayn_Dey.jpg';
 
 export default function About() {
   return (
-    <section className="my-16">
+    <section id="about" className="my-20">
       <div>
         <h2 className="text-2xl uppercase font-bold text-center mb-16">About</h2>
       </div>
