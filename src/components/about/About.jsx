@@ -2,9 +2,9 @@ import noyanImage from 'assets/images/Noayn_Dey.jpg';
 
 export default function About() {
   return (
-    <section className="my-8">
+    <section className="my-16">
       <div>
-        <h2 className="text-2xl uppercase font-bold text-center mb-8">About</h2>
+        <h2 className="text-2xl uppercase font-bold text-center mb-16">About</h2>
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-4 gap-4 justify-items-center">
         {/* image */}
