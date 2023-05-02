@@ -68,9 +68,9 @@ export default function Navbar() {
   </>
 
   return (
-    <section className="fixed w-full">
+    <section className="fixed w-full z-50">
       {/*<!-- Component: Navbar with CTA --> */}
-      <header className="relative z-20 w-full bg-slate-100/20 after:absolute after:top-full after:left-0 after:z-10 after:block after:h-px after:w-full lg:backdrop-blur-sm lg:after:hidden border-b border-indigo-100">
+      <header className="relative z-20 w-full bg-slate-100/20 after:absolute after:top-full after:left-0 after:z-10 after:block after:h-px after:w-full backdrop-blur-sm lg:after:hidden border-b border-indigo-100">
         <div className="relative md:px-0 container mx-auto px-2 font-radio">
           <nav
             aria-label="main navigation"
