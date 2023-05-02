@@ -75,8 +75,7 @@ export default function Navbar() {
           <nav
             aria-label="main navigation"
             className="flex h-16 items-stretch justify-between font-medium text-slate-700"
-            role="navigation"
-          >
+            role="navigation">
             {/*      <!-- Brand logo --> */}
             <div
               id="WindUI"
