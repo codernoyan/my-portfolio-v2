@@ -3,8 +3,9 @@ import noyanImage from 'assets/images/Noayn_Dey.jpg';
 export default function About() {
   return (
     <section id="about" className="my-20">
-      <div>
-        <h2 className="text-2xl uppercase font-bold text-center mb-16">About</h2>
+      <div className="mb-16">
+        <h2 className="relative text-3xl uppercase font-bold text-center -mb-16">About</h2>
+        <h1 className="text-9xl uppercase font-bold text-center text-slate-100/90 select-none">About</h1>
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-4 gap-4 justify-items-center">
         {/* image */}
