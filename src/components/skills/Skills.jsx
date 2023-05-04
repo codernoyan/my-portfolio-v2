@@ -1,6 +1,6 @@
 export default function Skills() {
   return (
-    <section id="skills" className="my-20">
+    <section id="skills" className="my-20 scroll-mt-20">
       <div className="mb-16">
         <h2 className="relative text-3xl uppercase font-bold text-center -mb-16">Skills</h2>
         <h1 className="text-9xl uppercase font-bold text-center text-slate-100/90 select-none">Skills</h1>

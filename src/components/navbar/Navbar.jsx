@@ -83,7 +83,7 @@ export default function Navbar() {
               aria-current="page"
               className="flex items-center gap-2 whitespace-nowrap py-3 text-lg focus:outline-none lg:flex-1"
             >
-              <a href="/" className="font-bold text-indigo-500">noyandey</a>
+              <a href="/#home" className="font-bold text-indigo-500">noyandey</a>
             </div>
             {/*      <!-- Mobile trigger --> */}
             <button
