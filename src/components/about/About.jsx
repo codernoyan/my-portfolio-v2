@@ -22,7 +22,8 @@ export default function About() {
           <p className="text-center md:text-justify font-medium text-slate-600">
             I am Noyan. Love to write code with a passion. From my childhood, I had a dream to become a web developer. Today that dream has been fulfilled through hard work, dedication, and sacrifice. I am self-motivated and skilled in web technologies. I am an expert in building applications with the JavaScript UI library React, Redux, Node.js, Express.js, and CRUD operations with MongoDB Database.I am passionate about programming, especially building web applications. When I write code, motivation comes from within myself, which helps me to complete a task perfectly.
           </p>
-          <a href="/src/assets/Noyan_Dey_Resume_Frontend.pdf" download="Noyan_Dey.pdf" className="group relative inline-block text-sm font-medium text-indigo-600 focus:outline-none focus:ring active:text-indigo-500">
+          {/* resume download button */}
+          <a href="./Noyan_Dey_Resume_Frontend.pdf" download="Noyan_Dey.pdf" className="group relative inline-block text-sm font-medium text-indigo-600 focus:outline-none focus:ring active:text-indigo-500">
             <span className="absolute inset-0 translate-x-0.5 translate-y-0.5 bg-indigo-600 transition-transform group-hover:translate-y-0 group-hover:translate-x-0" />
             <span className="relative block border border-current bg-white font-bold px-8 py-3">
               Download Resume

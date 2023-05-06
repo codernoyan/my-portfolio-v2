@@ -16,7 +16,7 @@ export default function Works() {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {/* card 1 */}
-        <div className="w-full bg-slate-50 p-2 rounded-md cursor-pointer">
+        <div className="w-full bg-slate-100 p-2 rounded-md cursor-pointer">
           {/* image */}
           <div className="relative font-medium text-indigo-600 before:absolute before:rounded-sm before:aspect-video before:w-full before:origin-left before:scale-x-0 before:backdrop-blur-lg hover:before:scale-100 duration-500 transition-all before:duration-700 before:transition-transform before:ease-in-out before:bg-black/25 group">
             <img src={projectOne} alt="projectOne" className="aspect-video object-cover" />
@@ -36,7 +36,7 @@ export default function Works() {
           </div>
         </div>
         {/* card 2 */}
-        <div className="w-full bg-slate-50 p-2 rounded-md cursor-pointer">
+        <div className="w-full bg-slate-100 p-2 rounded-md cursor-pointer">
           {/* image */}
           <div className="relative font-medium text-indigo-600 before:absolute before:rounded-sm before:aspect-video before:w-full before:origin-left before:scale-x-0 before:backdrop-blur-lg hover:before:scale-100 before:duration-700 before:transition-transform before:ease-in-out before:bg-black/25 group">
             <img src={projectTwo} alt="projectTwo" className="aspect-video w-full object-cover" />
@@ -56,7 +56,7 @@ export default function Works() {
           </div>
         </div>
         {/* card 3 */}
-        <div className="w-full bg-slate-50 p-2 rounded-md cursor-pointer">
+        <div className="w-full bg-slate-100 p-2 rounded-md cursor-pointer">
           {/* image */}
           <div className="relative font-medium before:absolute before:rounded-sm before:aspect-video before:w-full before:origin-left before:scale-x-0 before:backdrop-blur-lg hover:before:scale-100 before:duration-700 before:transition-transform before:ease-in-out before:bg-black/25 group">
             <img src={projectThree} alt="projectThree" className="aspect-video object-cover" />
