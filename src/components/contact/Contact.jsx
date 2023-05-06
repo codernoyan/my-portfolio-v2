@@ -5,8 +5,8 @@ export default function Contact() {
   return (
     <section id="contact" className="my-20 scroll-mt-20">
       <div className="mb-16">
-        <h2 className="relative text-3xl uppercase font-bold text-center -mb-16">Contact</h2>
-        <h1 className="text-8xl lg:text-9xl uppercase font-bold text-center text-slate-100/90 select-none">Contact</h1>
+        <h2 className="relative text-3xl uppercase font-bold text-center -mb-14">Contact</h2>
+        <h1 className="text-7xl lg:text-9xl uppercase font-bold text-center text-slate-100/90 select-none">Contact</h1>
       </div>
       {/* form */}
       <div className="flex flex-col lg:flex-row gap-10 lg:gap-0">
