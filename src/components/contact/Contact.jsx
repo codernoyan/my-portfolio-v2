@@ -19,25 +19,25 @@ export default function Contact() {
             {/* name */}
             <div className="mb-4">
               <label htmlFor="name" className="block text-gray-700 font-bold mb-2">Name:</label>
-              <input type="text" name="name" id="name" placeholder="Name" className="border border-gray-400 p-2 w-full" />
+              <input type="text" name="name" id="name" placeholder="Ex: William Smith" className="border border-gray-400 p-2 w-full" />
             </div>
             {/* email */}
             <div className="mb-4">
               <label htmlFor="email" className="block text-gray-700 font-bold mb-2">Email:</label>
-              <input type="email" name="email" id="email" placeholder="Email" className="border border-gray-400 p-2 w-full" />
+              <input type="email" name="email" id="email" placeholder="Ex: william@smith.com" className="border border-gray-400 p-2 w-full" />
             </div>
             {/* subject */}
             <div className="mb-4">
               <label htmlFor="subject" className="block text-gray-700 font-bold mb-2">Subject:</label>
-              <input type="text" name="subject" id="subject" placeholder="Subject" className="border border-gray-400 p-2 w-full" />
+              <input type="text" name="subject" id="subject" placeholder="Ex: Want to discuss about a project" className="border border-gray-400 p-2 w-full" />
             </div>
             {/* message */}
             <div className="mb-4">
               <label htmlFor="message" className="block text-gray-700 font-bold mb-2">Message:</label>
-              <textarea name="message" id="message" cols="30" rows="5" className="border border-gray-400 p-2 w-full"></textarea>
+              <textarea name="message" id="message" cols="30" rows="5" className="border border-gray-400 p-2 w-full" placeholder="Write your message here..."></textarea>
             </div>
             <div>
-              <button type="submit" className="bg-indigo-600 w-full p-2 text-white font-semibold">Send</button>
+              <button type="submit" className="bg-indigo-600 hover:bg-indigo-800 w-full p-2 text-white font-semibold transition-colors duration-300">Send</button>
             </div>
           </form>
         </div>
