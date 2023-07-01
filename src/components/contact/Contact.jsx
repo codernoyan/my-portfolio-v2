@@ -16,6 +16,10 @@ export default function Contact() {
         </div>
         <div className="lg:w-1/2">
           <form action="https://formsubmit.co/noyandey88@gmail.com" method="POST">
+            {/* for auto redirect to homepage */}
+            <input type="hidden" name="_next" value="https://noyan.pages.dev" />
+            {/* for avoid re-captcha */}
+            <input type="hidden" name="_captcha" value="false"></input>
             {/* name */}
             <div className="mb-4">
               <label htmlFor="name" className="block text-gray-700 font-bold mb-2">Name:</label>
