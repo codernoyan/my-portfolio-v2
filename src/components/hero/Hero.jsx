@@ -16,7 +16,7 @@ export default function Hero() {
 
   return (
     <main id="home" className="hero-pattern h-screen pt-4 md:pt-0 flex justify-center items-center">
-      <section className="pt-6 md:pt-14 container mx-auto">
+      <section className="pt-6 md:pt-14 container mx-auto px-2 md:px-4 lg:px-4 xl:px-0">
         <div className="space-y-5">
           {/* image */}
           <div className="flex justify-center">

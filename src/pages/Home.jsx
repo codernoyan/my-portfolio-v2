@@ -11,7 +11,7 @@ export default function Home() {
     <main className="font-radio">
       <Navbar />
       <Hero />
-      <section className="container mx-auto px-2 lg:px-0">
+      <section className="container mx-auto px-2 md:px-4 lg:px-4 xl:px-0">
         <About />
         <Skills />
         <Works />

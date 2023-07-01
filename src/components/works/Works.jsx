@@ -1,6 +1,6 @@
-import projectOne from 'assets/images/project-1.png';
-import projectTwo from 'assets/images/project-2.png';
-import projectThree from 'assets/images/project-3.png';
+import projectOne from 'assets/images/task_manager.webp';
+import projectTwo from 'assets/images/joldikino.webp';
+import projectThree from 'assets/images/cloud_kitchen_2.webp';
 import { FaGithub } from "react-icons/fa";
 
 export default function Works() {

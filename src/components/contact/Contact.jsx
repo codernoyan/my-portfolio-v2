@@ -15,7 +15,7 @@ export default function Contact() {
           <Lottie className="aspect-video lg:w-1/2 lg:aspect-auto -mt-16 lg:mt-0" animationData={mailAnimation} loop={true} />
         </div>
         <div className="lg:w-1/2">
-          <form>
+          <form action="https://formsubmit.co/noyandey88@gmail.com" method="POST">
             {/* name */}
             <div className="mb-4">
               <label htmlFor="name" className="block text-gray-700 font-bold mb-2">Name:</label>

@@ -52,7 +52,8 @@ export default function Navbar() {
     </li>
     <li role="none" className="flex items-stretch">
       <div className="me-auto flex items-center md:px-6 lg:ml-0 lg:p-0">
-        <button
+        <a
+          href="mailto:noyandey88@gmail.com"
           className="group relative inline-block text-sm font-medium text-indigo-600 focus:outline-none focus:ring active:text-indigo-500"
         >
           <span
@@ -60,9 +61,9 @@ export default function Navbar() {
           ></span>
 
           <span className="relative block border border-current bg-white font-bold px-8 py-3">
-            Hire Me
+            Let's Talk
           </span>
-        </button>
+        </a>
       </div>
     </li>
   </>
@@ -71,7 +72,7 @@ export default function Navbar() {
     <section className="fixed w-full z-50">
       {/*<!-- Component: Navbar with CTA --> */}
       <header className="relative z-20 w-full bg-slate-100/20 after:absolute after:top-full after:left-0 after:z-10 after:block after:h-px after:w-full backdrop-blur-sm lg:after:hidden border-b border-indigo-100">
-        <div className="relative md:px-0 container mx-auto px-2 font-radio">
+        <div className="relative container mx-auto px-2 md:px-4 lg:px-4 xl:px-0 font-radio">
           <nav
             aria-label="main navigation"
             className="flex h-16 items-stretch justify-between font-medium text-slate-700"
